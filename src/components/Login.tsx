@@ -48,7 +48,7 @@ const Login = () => {
   }, [username, password]);
 
   const handleLogin = () => {
-    if (username === 'abc@email.com' && password === 'password') {
+    if (username === 'panyet' && password === '1234') {
       setError(false);
       setHelperText('Login Successfully');
     } else {
